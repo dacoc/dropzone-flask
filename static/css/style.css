@@ -1,0 +1,53 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  padding: 20px 2px;
+}
+
+.add-button{
+  float: right;
+  padding: 10px 10px;
+}
+
+
+.specs {
+  display: none;
+  background-color: #ddd;
+  border-right: 1px solid #ccc;
+}
+
+.btn {
+  width: 100%;
+}
+
+.dropzone {
+  border: 2px dashed #cccccc;
+}
+
+.dropzone .dz-preview.dz-file-preview .dz-image {
+  border-radius: 1px;
+  background: #999;
+  background: linear-gradient(to bottom, #eee, #ddd); }
+.dropzone .dz-preview .dz-details .dz-filename span, .dropzone .dz-preview .dz-details .dz-size span {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 0 0.4em;
+  border-radius: 1px; }
+
+
+.dropzone .dz-preview .dz-image {
+    border-radius: 1px;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    display: block;
+    z-index: 10; }
